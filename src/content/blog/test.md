@@ -1,3 +1,8 @@
+---
+title: title
+---
+
+```ts
 import { defineCollection, z } from 'astro:content';
 
 const blog = defineCollection({
@@ -19,3 +24,4 @@ const blog = defineCollection({
 });
 
 export default { blog };
+```

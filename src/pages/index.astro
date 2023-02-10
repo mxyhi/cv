@@ -1,7 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
-import Test from "../components/Test.mdx"
+import { getCollection } from 'astro:content';
+// const blogEntries = await getCollection('blog');
+const blogEntries = await getCollection("blog")
+blogEntries.map((sub)=>{
+	sub.slug
+})
 ---
 
 <Layout title="Welcome to Astro.">
