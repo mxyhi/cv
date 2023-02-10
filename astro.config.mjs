@@ -5,7 +5,7 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
-  base: '/cv',
+  base: 'cv',
   integrations: [mdx()],
   markdown: {
     // Can be 'shiki' (default), 'prism' or false to disable highlighting
